@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Pill, Search, ShoppingCart, User, PlayCircle, Menu } from "lucide-react";
 import { HamburgerMenu } from '@/components/HamburgerMenu';
 import Chatbot from '@/components/Chatbot';
+import I18nProvider from '@/components/I18nProvider';
+import LanguageSelector from '@/components/LanguageSelector';
+import GoogleMapsLocalSEO from '@/components/GoogleMapsSEO';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <GoogleMapsLocalSEO lang="en" />
+      </head>
       <body className={`${inter.className} bg-gray-50 flex flex-col min-h-screen`}>
         <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
@@ -28,12 +34,13 @@ export default function RootLayout({
               <Link href="/" className="flex items-center gap-2 font-black tracking-tight text-indigo-800 shrink-0">
                 <Pill className="h-8 w-8 md:h-10 md:w-10 text-indigo-600" />
                 <span className="text-base sm:text-lg md:text-2xl leading-tight whitespace-nowrap">
-                  Medication Delivery <span className="text-indigo-500">Service</span>
+                  Mail Order <span className="text-indigo-500">Pharmacy</span>
                 </span>
               </Link>
             </div>
             <div className="flex-1"></div>
             <div className="flex items-center gap-4 md:gap-6 shrink-0">
+              <LanguageSelector />
               <Link href="/medications" className="flex flex-col items-center justify-center text-gray-700 hover:text-indigo-700">
                 <Search className="w-5 h-5 md:w-6 md:h-6" />
                 <span className="text-[10px] font-bold mt-0.5 hidden md:block">Search</span>
@@ -106,7 +113,11 @@ export default function RootLayout({
             &copy; {new Date().getFullYear()} Medication Delivery Service. All rights reserved.
           </div>
         </footer>
-      <Chatbot /></body>
+      <Chatbot />
+        </I18nProvider>
+      </body>
     </html>
   );
 }
+
+
