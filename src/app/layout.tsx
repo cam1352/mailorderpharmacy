@@ -9,8 +9,8 @@ import Chatbot from '@/components/Chatbot';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Medication Delivery Service",
-  description: "Modern online pharmacy, delivering to your door.",
+  title: "Mail Order Pharmacy | Fast Online Prescription Delivery",
+  description: "Secure, reliable mail order pharmacy. Get your prescriptions delivered directly to your door with fast shipping and licensed pharmacist support.",
 };
 
 export default function RootLayout({
