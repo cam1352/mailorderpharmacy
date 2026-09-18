@@ -125,24 +125,24 @@ export default async function LocationPage({ params }: { params: Promise<{ city:
                 "Manhattan", "Brooklyn", "Queens", "The Bronx", "Staten Island", 
                 "Upper East Side", "Upper West Side", "Harlem", "Williamsburg", 
                 "Astoria", "Flushing", "Greenwich Village"
-              ].map(n => <Link key={n} href={`/locations/new-york/${n.toLowerCase().replace(/ /g, '-')}`} className="hover:underline hover:text-indigo-900">{n}</Link>)
+              ].map(n => <Link key={n} href={`/locations/new-york/${n.toLowerCase().replaceAll(' ', '-')}`} className="hover:underline hover:text-indigo-900">{n}</Link>)
             ) : cityName.toLowerCase() === 'toronto' ? (
               [
                 "Downtown Core", "North York", "Scarborough", "Etobicoke", "Midtown", 
                 "East York", "The Beaches", "Liberty Village", "High Park", 
                 "Yorkville", "Leslieville", "Don Mills"
-              ].map(n => <Link key={n} href={`/locations/toronto/${n.toLowerCase().replace(/ /g, '-')}`} className="hover:underline hover:text-indigo-900">{n}</Link>)
+              ].map(n => <Link key={n} href={`/locations/toronto/${n.toLowerCase().replaceAll(' ', '-')}`} className="hover:underline hover:text-indigo-900">{n}</Link>)
             ) : cityName.toLowerCase() === 'los angeles' ? (
               [
                 "Hollywood", "Downtown LA", "Santa Monica", "Venice", "Beverly Hills", 
                 "West Hollywood", "Silver Lake", "Echo Park", "Koreatown", 
                 "Westwood", "Sherman Oaks", "Encino"
-              ].map(n => <Link key={n} href={`/locations/los-angeles/${n.toLowerCase().replace(/ /g, '-')}`} className="hover:underline hover:text-indigo-900">{n}</Link>)
+              ].map(n => <Link key={n} href={`/locations/los-angeles/${n.toLowerCase().replaceAll(' ', '-')}`} className="hover:underline hover:text-indigo-900">{n}</Link>)
             ) : (
               [
                 `Downtown ${cityName}`, `North ${cityName}`, `South ${cityName}`, `East ${cityName}`,
                 `West ${cityName}`, `${cityName} Suburbs`, `Greater ${cityName} Area`, `${cityName} Business District`
-              ].map(n => <Link key={n} href={`/locations/${resolvedParams.city}/${n.toLowerCase().replace(/ /g, '-')}`} className="hover:underline hover:text-indigo-900">{n}</Link>)
+              ].map(n => <Link key={n} href={`/locations/${resolvedParams.city}/${n.toLowerCase().replaceAll(' ', '-')}`} className="hover:underline hover:text-indigo-900">{n}</Link>)
             )}
           </div>
         </div>
@@ -150,3 +150,4 @@ export default async function LocationPage({ params }: { params: Promise<{ city:
     </div>
   );
 }
+
