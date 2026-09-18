@@ -1,0 +1,55 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id            String         @id @default(cuid())
+  email         String         @unique
+  name          String?
+  password      String?
+  prescriptions Prescription[]
+}
+
+model Prescription {
+  id           String   @id @default(cuid())
+  userId       String
+  medicationId String
+  status       String   @default("pending") // pending, approved, filled
+  createdAt    DateTime @default(now())
+  user         User     @relation(fields: [userId], references: [id])
+}
+
+model Medication {
+  id           String   @id
+  name         String
+  dosage       String
+  description  String
+  safetyInfo   String
+  compound     String
+  pillShape    String
+  pillColor    String
+  imageUrl     String
+  createdAt    DateTime @default(now())
+}
+
+model Blog {
+  id        String   @id
+  title     String
+  slug      String   @unique
+  date      String
+  content   String
+  createdAt DateTime @default(now())
+}
+
+model FAQ {
+  id        String   @id
+  title     String
+  slug      String   @unique
+  content   String
+  createdAt DateTime @default(now())
+}

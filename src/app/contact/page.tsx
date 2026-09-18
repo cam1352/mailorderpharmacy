@@ -1,0 +1,1 @@
+export default function Contact() { return <div className='p-12 text-center text-2xl font-bold text-indigo-900'>Contact Pharmacist Page (Coming Soon)</div>; }

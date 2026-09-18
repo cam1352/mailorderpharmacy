@@ -1,0 +1,22 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/create-payment-intent/route": "/api/create-payment-intent",
+  "/blog/[slug]/page": "/blog/[slug]",
+  "/blog/page": "/blog",
+  "/checkout/page": "/checkout",
+  "/contact/page": "/contact",
+  "/demo/page": "/demo",
+  "/faq/page": "/faq",
+  "/favicon.ico/route": "/favicon.ico",
+  "/locations/[city]/[neighborhood]/page": "/locations/[city]/[neighborhood]",
+  "/locations/[city]/page": "/locations/[city]",
+  "/locations/page": "/locations",
+  "/login/page": "/login",
+  "/medications/[id]/page": "/medications/[id]",
+  "/medications/page": "/medications",
+  "/page": "/",
+  "/prescriptions/page": "/prescriptions",
+  "/privacy/page": "/privacy",
+  "/terms/page": "/terms"
+}
