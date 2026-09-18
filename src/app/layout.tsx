@@ -114,10 +114,10 @@ export default function RootLayout({
           </div>
         </footer>
       <Chatbot />
-        </I18nProvider>
       </body>
     </html>
   );
 }
+
 
 
