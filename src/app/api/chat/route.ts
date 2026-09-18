@@ -3,6 +3,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 
 // Initialize Gemini API
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || 'dummy_key');
+const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
 
 // The Master System Prompt that trains the Chatbot
 const SYSTEM_PROMPT = `
