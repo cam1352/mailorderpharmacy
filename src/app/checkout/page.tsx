@@ -1,39 +1,38 @@
-"use client";
+﻿"use client";
 
-import { useState, useEffect } from "react";
-import { loadStripe } from "@stripe/stripe-js";
-import { Elements } from "@stripe/react-stripe-js";
-import { CheckoutForm } from "@/components/CheckoutForm";
-import { CreditCard, ShieldCheck } from "lucide-react";
-
-// In production, use process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY
-const stripePromise = loadStripe("pk_test_mock_123");
+import { useState } from "react";
+import { CreditCard, ShieldCheck, CheckCircle2 } from "lucide-react";
+import Link from "next/link";
 
 export default function CheckoutPage() {
-  const [clientSecret, setClientSecret] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSuccess, setIsSuccess] = useState(false);
 
-  useEffect(() => {
-    // Create PaymentIntent as soon as the page loads
-    fetch("/api/create-payment-intent", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ items: [{ id: "med_demo" }], amount: 2500 }),
-    })
-      .then((res) => res.json())
-      .then((data) => setClientSecret(data.clientSecret));
-  }, []);
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    // Simulate API call to save order to DB
+    setTimeout(() => {
+      setIsSubmitting(false);
+      setIsSuccess(true);
+    }, 1500);
+  };
 
-  const appearance = {
-    theme: 'stripe' as const,
-    variables: {
-      colorPrimary: '#4f46e5',
-    },
-  };
-  
-  const options = {
-    clientSecret,
-    appearance,
-  };
+  if (isSuccess) {
+    return (
+      <div className="max-w-2xl mx-auto py-24 px-4 text-center">
+        <CheckCircle2 className="w-20 h-20 text-green-500 mx-auto mb-6" />
+        <h1 className="text-4xl font-bold text-gray-900 mb-4">Order Received</h1>
+        <p className="text-lg text-gray-600 mb-8 max-w-lg mx-auto">
+          Your prescription request has been securely routed to our partner pharmacy. 
+          They will contact you directly to process your payment and coordinate fulfillment.
+        </p>
+        <Link href="/" className="inline-block bg-indigo-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-indigo-700 transition-colors">
+          Return Home
+        </Link>
+      </div>
+    );
+  }
 
   return (
     <div className="max-w-2xl mx-auto py-12 px-4">
@@ -43,25 +42,56 @@ export default function CheckoutPage() {
           Secure Checkout
         </h1>
         <p className="text-gray-500 mb-8 flex items-center gap-1.5 text-sm">
-          <ShieldCheck className="w-4 h-4 text-green-500" /> Payment processing is encrypted and PCI-DSS compliant via Stripe.
+          <ShieldCheck className="w-4 h-4 text-green-500" /> Your information is encrypted and transmitted directly to the dispensing pharmacy.
         </p>
         
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8 rounded-r-lg">
           <p className="text-sm text-yellow-800 font-semibold leading-relaxed">
-            * Please note: Delivery charges may apply based on your location. Delivery can be postponed due to severe weather, courier delays, or inventory shortages at the partnered pharmacy.
+            * Please note: You will not be charged today. Our partnered pharmacy handles all billing, insurance verification, and fulfillment directly.
           </p>
         </div>
 
-        {clientSecret ? (
-          <Elements options={options} stripe={stripePromise}>
-            <CheckoutForm clientSecret={clientSecret} />
-          </Elements>
-        ) : (
-          <div className="flex flex-col items-center justify-center py-12">
-            <div className="w-10 h-10 border-4 border-indigo-200 border-t-indigo-600 rounded-full animate-spin mb-4"></div>
-            <p className="text-gray-500 font-medium">Initializing secure payment gateway...</p>
+        <form onSubmit={handleSubmit} className="space-y-6">
+          <div className="grid grid-cols-2 gap-4">
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">First Name</label>
+              <input type="text" required className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none" />
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">Last Name</label>
+              <input type="text" required className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none" />
+            </div>
           </div>
-        )}
+          
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+            <input type="email" required className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none" />
+          </div>
+
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">Shipping Address</label>
+            <input type="text" required className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none" placeholder="123 Main St" />
+          </div>
+
+          <div className="grid grid-cols-3 gap-4">
+            <div className="col-span-2">
+              <label className="block text-sm font-medium text-gray-700 mb-1">City</label>
+              <input type="text" required className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none" />
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">ZIP Code</label>
+              <input type="text" required className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none" />
+            </div>
+          </div>
+
+          <button 
+            type="submit" 
+            disabled={isSubmitting}
+            className="w-full bg-indigo-600 text-white font-bold py-4 rounded-xl hover:bg-indigo-700 transition-colors disabled:opacity-50 mt-4 flex items-center justify-center"
+          >
+            {isSubmitting ? "Routing to Pharmacy..." : "Submit Order to Pharmacy"}
+          </button>
+        </form>
       </div>
     </div>
   );
