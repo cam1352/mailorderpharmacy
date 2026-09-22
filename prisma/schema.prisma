@@ -1,4 +1,4 @@
-generator client {
+﻿generator client {
   provider = "prisma-client-js"
 }
 
@@ -51,5 +51,17 @@ model FAQ {
   title     String
   slug      String   @unique
   content   String
+  createdAt DateTime @default(now())
+}
+
+model Intake {
+  id        String   @id @default(cuid())
+  firstName String
+  lastName  String
+  email     String
+  address   String
+  city      String
+  zipCode   String
+  status    String   @default("pending")
   createdAt DateTime @default(now())
 }
