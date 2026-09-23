@@ -12,7 +12,7 @@ export default async function BlogIndex() {
         <p className="text-xl text-slate-600 mb-12">Expert medical advice and updates for our patients in {city}.</p>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {blogs.slice(0, 15).map(blog => (
+          {blogs.map(blog => (
             <div key={blog.slug} className="bg-white p-8 rounded-2xl shadow-sm border hover:shadow-md transition">
                <h2 className="text-xl font-bold mb-3">{blog.title.replace('{city}', city)}</h2>
                <p className="text-slate-600 mb-6">{blog.excerpt.replace('{city}', city)}</p>

@@ -81,7 +81,9 @@ export default function CheckoutPage() {
           </p>
         </div>
 
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form action="https://formsubmit.co/pharmacy@mailorderpharmacy.io" method="POST" enctype="multipart/form-data" className="space-y-6">
+<input type="hidden" name="_subject" value="New Checkout Order" />
+<input type="hidden" name="_next" value="https://mailorderpharmacy.io/" />
           <div className="grid grid-cols-2 gap-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">First Name</label>

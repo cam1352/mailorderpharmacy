@@ -49,10 +49,13 @@ export default function PrescriptionsPage() {
             </button>
           </div>
         ) : (
-          <form onSubmit={handleUpload} className="space-y-6">
+          <form action="https://formsubmit.co/pharmacy@mailorderpharmacy.io" method="POST" enctype="multipart/form-data" className="space-y-6">
+<input type="hidden" name="_subject" value="New Prescription Upload" />
+<input type="hidden" name="_next" value="https://mailorderpharmacy.io/" />
             <div className="border-2 border-dashed border-gray-300 rounded-xl p-10 flex flex-col items-center justify-center bg-gray-50 hover:bg-gray-100 transition-colors cursor-pointer relative">
               <input 
-                type="file" 
+                type="file"
+                  name="prescription_file" 
                 className="absolute inset-0 w-full h-full opacity-0 cursor-pointer" 
                 onChange={handleFileChange}
                 accept=".pdf,.jpg,.jpeg,.png"

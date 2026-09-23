@@ -20,6 +20,7 @@ export default function NavBar({ city }: { city: string | null }) {
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-6 font-medium text-sm text-slate-300">
+            <Link href="/medications" className="hover:text-white transition">Medications</Link>
             <Link href="/services" className="hover:text-white transition">Services</Link>
             <Link href="/how-it-works" className="hover:text-white transition">How it Works</Link>
             <Link href="/blog" className="hover:text-white transition">Health Blog</Link>
@@ -41,6 +42,7 @@ export default function NavBar({ city }: { city: string | null }) {
         {isOpen && (
           <div className="md:hidden bg-slate-800 border-b border-slate-700">
             <div className="px-4 pt-2 pb-6 space-y-2 flex flex-col">
+              <Link href="/medications" onClick={toggleMenu} className="block px-3 py-3 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-slate-700">Medications</Link>
               <Link href="/services" onClick={toggleMenu} className="block px-3 py-3 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-slate-700">Services</Link>
               <Link href="/how-it-works" onClick={toggleMenu} className="block px-3 py-3 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-slate-700">How it Works</Link>
               <Link href="/blog" onClick={toggleMenu} className="block px-3 py-3 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-slate-700">Health Blog</Link>
@@ -67,6 +69,8 @@ export default function NavBar({ city }: { city: string | null }) {
         <div className="hidden md:flex items-center gap-6 font-medium text-sm text-slate-600">
           <Link href="/medications" className="hover:text-indigo-600 transition">Medications</Link>
           <Link href="/prescriptions" className="hover:text-indigo-600 transition">Prescriptions</Link>
+          <Link href="/blog" className="hover:text-indigo-600 transition">Health Blog</Link>
+          <Link href="/faq" className="hover:text-indigo-600 transition">FAQ</Link>
           <Link href="/checkout" className="hover:text-indigo-600 transition">Checkout</Link>
           <Link href="/login" className="bg-slate-900 text-white px-5 py-2 rounded-lg font-bold text-sm hover:bg-slate-800 transition">
             Patient Portal
@@ -87,6 +91,8 @@ export default function NavBar({ city }: { city: string | null }) {
           <div className="px-4 pt-2 pb-6 space-y-2 flex flex-col">
             <Link href="/medications" onClick={toggleMenu} className="block px-3 py-3 rounded-md text-base font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-50">Medications</Link>
             <Link href="/prescriptions" onClick={toggleMenu} className="block px-3 py-3 rounded-md text-base font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-50">Prescriptions</Link>
+            <Link href="/blog" onClick={toggleMenu} className="block px-3 py-3 rounded-md text-base font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-50">Health Blog</Link>
+            <Link href="/faq" onClick={toggleMenu} className="block px-3 py-3 rounded-md text-base font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-50">FAQ</Link>
             <Link href="/checkout" onClick={toggleMenu} className="block px-3 py-3 rounded-md text-base font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-50">Checkout</Link>
             <Link href="/login" onClick={toggleMenu} className="mt-4 block text-center bg-slate-900 text-white px-5 py-3 rounded-lg font-bold text-base hover:bg-slate-800 transition">
               Patient Portal

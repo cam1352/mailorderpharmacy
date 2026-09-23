@@ -11,7 +11,7 @@ export default async function FAQIndex() {
         <p className="text-xl text-slate-600 mb-12">Everything you need to know about mail order pharmacy delivery in the {city} area.</p>
         
         <div className="space-y-4">
-          {faqs.slice(0, 20).map(faq => (
+          {faqs.map(faq => (
             <div key={faq.id} className="bg-white p-6 rounded-xl shadow-sm border">
                <h3 className="text-lg font-bold mb-2">{faq.question.replace(/\{city\}/g, city)}</h3>
                <p className="text-slate-600">{faq.answer.replace(/\{city\}/g, city)}</p>
