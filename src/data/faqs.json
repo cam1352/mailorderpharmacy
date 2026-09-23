@@ -1,602 +1,602 @@
 [
   {
-    "id": 1,
-    "category": "Shipping & Delivery",
-    "question": "How long does it take to get medication?",
-    "answer": "Usually it takes 1-2 business days depending on your location and the specific medication requested."
+    "id": "faq-1",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 2,
-    "category": "Shipping & Delivery",
-    "question": "How long does it take to get prescription?",
-    "answer": "Usually it takes 1-2 business days depending on your location and the specific prescription requested."
+    "id": "faq-2",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 3,
-    "category": "Shipping & Delivery",
-    "question": "How long does it take to get refill?",
-    "answer": "Usually it takes 1-2 business days depending on your location and the specific refill requested."
+    "id": "faq-3",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 4,
-    "category": "Shipping & Delivery",
-    "question": "How long does it take to get delivery?",
-    "answer": "Usually it takes 1-2 business days depending on your location and the specific delivery requested."
+    "id": "faq-4",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 5,
-    "category": "Shipping & Delivery",
-    "question": "How long does it take to get insurance claim?",
-    "answer": "Usually it takes 1-2 business days depending on your location and the specific insurance claim requested."
+    "id": "faq-5",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 6,
-    "category": "Shipping & Delivery",
-    "question": "How long does it take to get consultation?",
-    "answer": "Usually it takes 1-2 business days depending on your location and the specific consultation requested."
+    "id": "faq-6",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 7,
-    "category": "Shipping & Delivery",
-    "question": "How long does it take to get medical record?",
-    "answer": "Usually it takes 1-2 business days depending on your location and the specific medical record requested."
+    "id": "faq-7",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 8,
-    "category": "Shipping & Delivery",
-    "question": "How long does it take to get payment?",
-    "answer": "Usually it takes 1-2 business days depending on your location and the specific payment requested."
+    "id": "faq-8",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 9,
-    "category": "Shipping & Delivery",
-    "question": "How long does it take to get billing profile?",
-    "answer": "Usually it takes 1-2 business days depending on your location and the specific billing profile requested."
+    "id": "faq-9",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 10,
-    "category": "Shipping & Delivery",
-    "question": "How long does it take to get shipment?",
-    "answer": "Usually it takes 1-2 business days depending on your location and the specific shipment requested."
+    "id": "faq-10",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 11,
-    "category": "Shipping & Delivery",
-    "question": "Is medication covered by insurance?",
-    "answer": "Most major insurance plans cover medication. Please check with your provider for specific copay details."
+    "id": "faq-11",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 12,
-    "category": "Shipping & Delivery",
-    "question": "Is prescription covered by insurance?",
-    "answer": "Most major insurance plans cover prescription. Please check with your provider for specific copay details."
+    "id": "faq-12",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 13,
-    "category": "Shipping & Delivery",
-    "question": "Is refill covered by insurance?",
-    "answer": "Most major insurance plans cover refill. Please check with your provider for specific copay details."
+    "id": "faq-13",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 14,
-    "category": "Shipping & Delivery",
-    "question": "Is delivery covered by insurance?",
-    "answer": "Most major insurance plans cover delivery. Please check with your provider for specific copay details."
+    "id": "faq-14",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 15,
-    "category": "Shipping & Delivery",
-    "question": "Is insurance claim covered by insurance?",
-    "answer": "Most major insurance plans cover insurance claim. Please check with your provider for specific copay details."
+    "id": "faq-15",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 16,
-    "category": "Shipping & Delivery",
-    "question": "Is consultation covered by insurance?",
-    "answer": "Most major insurance plans cover consultation. Please check with your provider for specific copay details."
+    "id": "faq-16",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 17,
-    "category": "Shipping & Delivery",
-    "question": "Is medical record covered by insurance?",
-    "answer": "Most major insurance plans cover medical record. Please check with your provider for specific copay details."
+    "id": "faq-17",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 18,
-    "category": "Shipping & Delivery",
-    "question": "Is payment covered by insurance?",
-    "answer": "Most major insurance plans cover payment. Please check with your provider for specific copay details."
+    "id": "faq-18",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 19,
-    "category": "Shipping & Delivery",
-    "question": "Is billing profile covered by insurance?",
-    "answer": "Most major insurance plans cover billing profile. Please check with your provider for specific copay details."
+    "id": "faq-19",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 20,
-    "category": "Shipping & Delivery",
-    "question": "Is shipment covered by insurance?",
-    "answer": "Most major insurance plans cover shipment. Please check with your provider for specific copay details."
+    "id": "faq-20",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 21,
-    "category": "Shipping & Delivery",
-    "question": "What happens if I miss my delivery for medication?",
-    "answer": "Our courier will attempt redelivery the next day. A signature may be required for sensitive medication."
+    "id": "faq-21",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 22,
-    "category": "Shipping & Delivery",
-    "question": "What happens if I miss my delivery for prescription?",
-    "answer": "Our courier will attempt redelivery the next day. A signature may be required for sensitive prescription."
+    "id": "faq-22",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 23,
-    "category": "Shipping & Delivery",
-    "question": "What happens if I miss my delivery for refill?",
-    "answer": "Our courier will attempt redelivery the next day. A signature may be required for sensitive refill."
+    "id": "faq-23",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 24,
-    "category": "Shipping & Delivery",
-    "question": "What happens if I miss my delivery for delivery?",
-    "answer": "Our courier will attempt redelivery the next day. A signature may be required for sensitive delivery."
+    "id": "faq-24",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 25,
-    "category": "Shipping & Delivery",
-    "question": "What happens if I miss my delivery for insurance claim?",
-    "answer": "Our courier will attempt redelivery the next day. A signature may be required for sensitive insurance claim."
+    "id": "faq-25",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 26,
-    "category": "Shipping & Delivery",
-    "question": "What happens if I miss my delivery for consultation?",
-    "answer": "Our courier will attempt redelivery the next day. A signature may be required for sensitive consultation."
+    "id": "faq-26",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 27,
-    "category": "Shipping & Delivery",
-    "question": "What happens if I miss my delivery for medical record?",
-    "answer": "Our courier will attempt redelivery the next day. A signature may be required for sensitive medical record."
+    "id": "faq-27",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 28,
-    "category": "Shipping & Delivery",
-    "question": "What happens if I miss my delivery for payment?",
-    "answer": "Our courier will attempt redelivery the next day. A signature may be required for sensitive payment."
+    "id": "faq-28",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 29,
-    "category": "Shipping & Delivery",
-    "question": "What happens if I miss my delivery for billing profile?",
-    "answer": "Our courier will attempt redelivery the next day. A signature may be required for sensitive billing profile."
+    "id": "faq-29",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 30,
-    "category": "Shipping & Delivery",
-    "question": "What happens if I miss my delivery for shipment?",
-    "answer": "Our courier will attempt redelivery the next day. A signature may be required for sensitive shipment."
+    "id": "faq-30",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 31,
-    "category": "Shipping & Delivery",
-    "question": "Can I track my medication?",
-    "answer": "Yes, you will receive a tracking link via email or SMS once your medication has been dispatched."
+    "id": "faq-31",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 32,
-    "category": "Shipping & Delivery",
-    "question": "Can I track my prescription?",
-    "answer": "Yes, you will receive a tracking link via email or SMS once your prescription has been dispatched."
+    "id": "faq-32",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 33,
-    "category": "Shipping & Delivery",
-    "question": "Can I track my refill?",
-    "answer": "Yes, you will receive a tracking link via email or SMS once your refill has been dispatched."
+    "id": "faq-33",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 34,
-    "category": "Shipping & Delivery",
-    "question": "Can I track my delivery?",
-    "answer": "Yes, you will receive a tracking link via email or SMS once your delivery has been dispatched."
+    "id": "faq-34",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 35,
-    "category": "Shipping & Delivery",
-    "question": "Can I track my insurance claim?",
-    "answer": "Yes, you will receive a tracking link via email or SMS once your insurance claim has been dispatched."
+    "id": "faq-35",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 36,
-    "category": "Shipping & Delivery",
-    "question": "Can I track my consultation?",
-    "answer": "Yes, you will receive a tracking link via email or SMS once your consultation has been dispatched."
+    "id": "faq-36",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 37,
-    "category": "Shipping & Delivery",
-    "question": "Can I track my medical record?",
-    "answer": "Yes, you will receive a tracking link via email or SMS once your medical record has been dispatched."
+    "id": "faq-37",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 38,
-    "category": "Shipping & Delivery",
-    "question": "Can I track my payment?",
-    "answer": "Yes, you will receive a tracking link via email or SMS once your payment has been dispatched."
+    "id": "faq-38",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 39,
-    "category": "Shipping & Delivery",
-    "question": "Can I track my billing profile?",
-    "answer": "Yes, you will receive a tracking link via email or SMS once your billing profile has been dispatched."
+    "id": "faq-39",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 40,
-    "category": "Shipping & Delivery",
-    "question": "Can I track my shipment?",
-    "answer": "Yes, you will receive a tracking link via email or SMS once your shipment has been dispatched."
+    "id": "faq-40",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 41,
-    "category": "Shipping & Delivery",
-    "question": "How do I update my medication information?",
-    "answer": "You can update your medication settings directly from your patient dashboard under the Account section."
+    "id": "faq-41",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 42,
-    "category": "Shipping & Delivery",
-    "question": "How do I update my prescription information?",
-    "answer": "You can update your prescription settings directly from your patient dashboard under the Account section."
+    "id": "faq-42",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 43,
-    "category": "Shipping & Delivery",
-    "question": "How do I update my refill information?",
-    "answer": "You can update your refill settings directly from your patient dashboard under the Account section."
+    "id": "faq-43",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 44,
-    "category": "Shipping & Delivery",
-    "question": "How do I update my delivery information?",
-    "answer": "You can update your delivery settings directly from your patient dashboard under the Account section."
+    "id": "faq-44",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 45,
-    "category": "Shipping & Delivery",
-    "question": "How do I update my insurance claim information?",
-    "answer": "You can update your insurance claim settings directly from your patient dashboard under the Account section."
+    "id": "faq-45",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 46,
-    "category": "Shipping & Delivery",
-    "question": "How do I update my consultation information?",
-    "answer": "You can update your consultation settings directly from your patient dashboard under the Account section."
+    "id": "faq-46",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 47,
-    "category": "Shipping & Delivery",
-    "question": "How do I update my medical record information?",
-    "answer": "You can update your medical record settings directly from your patient dashboard under the Account section."
+    "id": "faq-47",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 48,
-    "category": "Shipping & Delivery",
-    "question": "How do I update my payment information?",
-    "answer": "You can update your payment settings directly from your patient dashboard under the Account section."
+    "id": "faq-48",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 49,
-    "category": "Shipping & Delivery",
-    "question": "How do I update my billing profile information?",
-    "answer": "You can update your billing profile settings directly from your patient dashboard under the Account section."
+    "id": "faq-49",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 50,
-    "category": "Shipping & Delivery",
-    "question": "How do I update my shipment information?",
-    "answer": "You can update your shipment settings directly from your patient dashboard under the Account section."
+    "id": "faq-50",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 51,
-    "category": "Shipping & Delivery",
-    "question": "Are there extra fees for medication?",
-    "answer": "Standard medication is included. Specialized or expedited medication may incur an additional fee."
+    "id": "faq-51",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 52,
-    "category": "Shipping & Delivery",
-    "question": "Are there extra fees for prescription?",
-    "answer": "Standard prescription is included. Specialized or expedited prescription may incur an additional fee."
+    "id": "faq-52",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 53,
-    "category": "Shipping & Delivery",
-    "question": "Are there extra fees for refill?",
-    "answer": "Standard refill is included. Specialized or expedited refill may incur an additional fee."
+    "id": "faq-53",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 54,
-    "category": "Shipping & Delivery",
-    "question": "Are there extra fees for delivery?",
-    "answer": "Standard delivery is included. Specialized or expedited delivery may incur an additional fee."
+    "id": "faq-54",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 55,
-    "category": "Shipping & Delivery",
-    "question": "Are there extra fees for insurance claim?",
-    "answer": "Standard insurance claim is included. Specialized or expedited insurance claim may incur an additional fee."
+    "id": "faq-55",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 56,
-    "category": "Shipping & Delivery",
-    "question": "Are there extra fees for consultation?",
-    "answer": "Standard consultation is included. Specialized or expedited consultation may incur an additional fee."
+    "id": "faq-56",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 57,
-    "category": "Shipping & Delivery",
-    "question": "Are there extra fees for medical record?",
-    "answer": "Standard medical record is included. Specialized or expedited medical record may incur an additional fee."
+    "id": "faq-57",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 58,
-    "category": "Shipping & Delivery",
-    "question": "Are there extra fees for payment?",
-    "answer": "Standard payment is included. Specialized or expedited payment may incur an additional fee."
+    "id": "faq-58",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 59,
-    "category": "Shipping & Delivery",
-    "question": "Are there extra fees for billing profile?",
-    "answer": "Standard billing profile is included. Specialized or expedited billing profile may incur an additional fee."
+    "id": "faq-59",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 60,
-    "category": "Shipping & Delivery",
-    "question": "Are there extra fees for shipment?",
-    "answer": "Standard shipment is included. Specialized or expedited shipment may incur an additional fee."
+    "id": "faq-60",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 61,
-    "category": "Shipping & Delivery",
-    "question": "Who reviews my medication?",
-    "answer": "All medication are reviewed by licensed partner pharmacists to ensure clinical safety and accuracy."
+    "id": "faq-61",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 62,
-    "category": "Shipping & Delivery",
-    "question": "Who reviews my prescription?",
-    "answer": "All prescription are reviewed by licensed partner pharmacists to ensure clinical safety and accuracy."
+    "id": "faq-62",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 63,
-    "category": "Shipping & Delivery",
-    "question": "Who reviews my refill?",
-    "answer": "All refill are reviewed by licensed partner pharmacists to ensure clinical safety and accuracy."
+    "id": "faq-63",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 64,
-    "category": "Shipping & Delivery",
-    "question": "Who reviews my delivery?",
-    "answer": "All delivery are reviewed by licensed partner pharmacists to ensure clinical safety and accuracy."
+    "id": "faq-64",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 65,
-    "category": "Shipping & Delivery",
-    "question": "Who reviews my insurance claim?",
-    "answer": "All insurance claim are reviewed by licensed partner pharmacists to ensure clinical safety and accuracy."
+    "id": "faq-65",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 66,
-    "category": "Shipping & Delivery",
-    "question": "Who reviews my consultation?",
-    "answer": "All consultation are reviewed by licensed partner pharmacists to ensure clinical safety and accuracy."
+    "id": "faq-66",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 67,
-    "category": "Shipping & Delivery",
-    "question": "Who reviews my medical record?",
-    "answer": "All medical record are reviewed by licensed partner pharmacists to ensure clinical safety and accuracy."
+    "id": "faq-67",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 68,
-    "category": "Shipping & Delivery",
-    "question": "Who reviews my payment?",
-    "answer": "All payment are reviewed by licensed partner pharmacists to ensure clinical safety and accuracy."
+    "id": "faq-68",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 69,
-    "category": "Shipping & Delivery",
-    "question": "Who reviews my billing profile?",
-    "answer": "All billing profile are reviewed by licensed partner pharmacists to ensure clinical safety and accuracy."
+    "id": "faq-69",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 70,
-    "category": "Shipping & Delivery",
-    "question": "Who reviews my shipment?",
-    "answer": "All shipment are reviewed by licensed partner pharmacists to ensure clinical safety and accuracy."
+    "id": "faq-70",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 71,
-    "category": "Shipping & Delivery",
-    "question": "Can I cancel my medication?",
-    "answer": "You can cancel medication anytime before the pharmacy has begun processing your order."
+    "id": "faq-71",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 72,
-    "category": "Shipping & Delivery",
-    "question": "Can I cancel my prescription?",
-    "answer": "You can cancel prescription anytime before the pharmacy has begun processing your order."
+    "id": "faq-72",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 73,
-    "category": "Shipping & Delivery",
-    "question": "Can I cancel my refill?",
-    "answer": "You can cancel refill anytime before the pharmacy has begun processing your order."
+    "id": "faq-73",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 74,
-    "category": "Shipping & Delivery",
-    "question": "Can I cancel my delivery?",
-    "answer": "You can cancel delivery anytime before the pharmacy has begun processing your order."
+    "id": "faq-74",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 75,
-    "category": "Shipping & Delivery",
-    "question": "Can I cancel my insurance claim?",
-    "answer": "You can cancel insurance claim anytime before the pharmacy has begun processing your order."
+    "id": "faq-75",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 76,
-    "category": "Shipping & Delivery",
-    "question": "Can I cancel my consultation?",
-    "answer": "You can cancel consultation anytime before the pharmacy has begun processing your order."
+    "id": "faq-76",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 77,
-    "category": "Shipping & Delivery",
-    "question": "Can I cancel my medical record?",
-    "answer": "You can cancel medical record anytime before the pharmacy has begun processing your order."
+    "id": "faq-77",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 78,
-    "category": "Shipping & Delivery",
-    "question": "Can I cancel my payment?",
-    "answer": "You can cancel payment anytime before the pharmacy has begun processing your order."
+    "id": "faq-78",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 79,
-    "category": "Shipping & Delivery",
-    "question": "Can I cancel my billing profile?",
-    "answer": "You can cancel billing profile anytime before the pharmacy has begun processing your order."
+    "id": "faq-79",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 80,
-    "category": "Shipping & Delivery",
-    "question": "Can I cancel my shipment?",
-    "answer": "You can cancel shipment anytime before the pharmacy has begun processing your order."
+    "id": "faq-80",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 81,
-    "category": "Shipping & Delivery",
-    "question": "Is my medication kept private?",
-    "answer": "Absolutely. All data regarding your medication is encrypted end-to-end and HIPAA compliant."
+    "id": "faq-81",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 82,
-    "category": "Shipping & Delivery",
-    "question": "Is my prescription kept private?",
-    "answer": "Absolutely. All data regarding your prescription is encrypted end-to-end and HIPAA compliant."
+    "id": "faq-82",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 83,
-    "category": "Shipping & Delivery",
-    "question": "Is my refill kept private?",
-    "answer": "Absolutely. All data regarding your refill is encrypted end-to-end and HIPAA compliant."
+    "id": "faq-83",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 84,
-    "category": "Shipping & Delivery",
-    "question": "Is my delivery kept private?",
-    "answer": "Absolutely. All data regarding your delivery is encrypted end-to-end and HIPAA compliant."
+    "id": "faq-84",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 85,
-    "category": "Shipping & Delivery",
-    "question": "Is my insurance claim kept private?",
-    "answer": "Absolutely. All data regarding your insurance claim is encrypted end-to-end and HIPAA compliant."
+    "id": "faq-85",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 86,
-    "category": "Shipping & Delivery",
-    "question": "Is my consultation kept private?",
-    "answer": "Absolutely. All data regarding your consultation is encrypted end-to-end and HIPAA compliant."
+    "id": "faq-86",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 87,
-    "category": "Shipping & Delivery",
-    "question": "Is my medical record kept private?",
-    "answer": "Absolutely. All data regarding your medical record is encrypted end-to-end and HIPAA compliant."
+    "id": "faq-87",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 88,
-    "category": "Shipping & Delivery",
-    "question": "Is my payment kept private?",
-    "answer": "Absolutely. All data regarding your payment is encrypted end-to-end and HIPAA compliant."
+    "id": "faq-88",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 89,
-    "category": "Shipping & Delivery",
-    "question": "Is my billing profile kept private?",
-    "answer": "Absolutely. All data regarding your billing profile is encrypted end-to-end and HIPAA compliant."
+    "id": "faq-89",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 90,
-    "category": "Shipping & Delivery",
-    "question": "Is my shipment kept private?",
-    "answer": "Absolutely. All data regarding your shipment is encrypted end-to-end and HIPAA compliant."
+    "id": "faq-90",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 91,
-    "category": "Shipping & Delivery",
-    "question": "Do you offer automatic medication?",
-    "answer": "Yes, you can enroll in auto-renewals for medication to ensure you never run out of your medication."
+    "id": "faq-91",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 92,
-    "category": "Shipping & Delivery",
-    "question": "Do you offer automatic prescription?",
-    "answer": "Yes, you can enroll in auto-renewals for prescription to ensure you never run out of your medication."
+    "id": "faq-92",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 93,
-    "category": "Shipping & Delivery",
-    "question": "Do you offer automatic refill?",
-    "answer": "Yes, you can enroll in auto-renewals for refill to ensure you never run out of your medication."
+    "id": "faq-93",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 94,
-    "category": "Shipping & Delivery",
-    "question": "Do you offer automatic delivery?",
-    "answer": "Yes, you can enroll in auto-renewals for delivery to ensure you never run out of your medication."
+    "id": "faq-94",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 95,
-    "category": "Shipping & Delivery",
-    "question": "Do you offer automatic insurance claim?",
-    "answer": "Yes, you can enroll in auto-renewals for insurance claim to ensure you never run out of your medication."
+    "id": "faq-95",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 96,
-    "category": "Shipping & Delivery",
-    "question": "Do you offer automatic consultation?",
-    "answer": "Yes, you can enroll in auto-renewals for consultation to ensure you never run out of your medication."
+    "id": "faq-96",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 97,
-    "category": "Shipping & Delivery",
-    "question": "Do you offer automatic medical record?",
-    "answer": "Yes, you can enroll in auto-renewals for medical record to ensure you never run out of your medication."
+    "id": "faq-97",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 98,
-    "category": "Shipping & Delivery",
-    "question": "Do you offer automatic payment?",
-    "answer": "Yes, you can enroll in auto-renewals for payment to ensure you never run out of your medication."
+    "id": "faq-98",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   },
   {
-    "id": 99,
-    "category": "Shipping & Delivery",
-    "question": "Do you offer automatic billing profile?",
-    "answer": "Yes, you can enroll in auto-renewals for billing profile to ensure you never run out of your medication."
+    "id": "faq-99",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Prescriptions"
   },
   {
-    "id": 100,
-    "category": "Shipping & Delivery",
-    "question": "Do you offer automatic shipment?",
-    "answer": "Yes, you can enroll in auto-renewals for shipment to ensure you never run out of your medication."
+    "id": "faq-100",
+    "question": "How long does prescription delivery take in {city}?",
+    "answer": "Our typical delivery time for residents in {city} is under 24 hours. We coordinate with local couriers in the {city} area to ensure your medications arrive safely and securely.",
+    "category": "Shipping"
   }
 ]
