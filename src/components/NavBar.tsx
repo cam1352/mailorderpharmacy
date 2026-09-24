@@ -71,8 +71,7 @@ export default function NavBar({ city }: { city: string | null }) {
           <Link href="/prescriptions" className="hover:text-indigo-600 transition">Prescriptions</Link>
           <Link href="/blog" className="hover:text-indigo-600 transition">Health Blog</Link>
           <Link href="/faq" className="hover:text-indigo-600 transition">FAQ</Link>
-          <Link href="/checkout" className="hover:text-indigo-600 transition">Checkout</Link>
-          <Link href="/login" className="bg-slate-900 text-white px-5 py-2 rounded-lg font-bold text-sm hover:bg-slate-800 transition">
+                    <Link href="/login" className="bg-slate-900 text-white px-5 py-2 rounded-lg font-bold text-sm hover:bg-slate-800 transition">
             Patient Portal
           </Link>
         </div>
@@ -93,8 +92,7 @@ export default function NavBar({ city }: { city: string | null }) {
             <Link href="/prescriptions" onClick={toggleMenu} className="block px-3 py-3 rounded-md text-base font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-50">Prescriptions</Link>
             <Link href="/blog" onClick={toggleMenu} className="block px-3 py-3 rounded-md text-base font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-50">Health Blog</Link>
             <Link href="/faq" onClick={toggleMenu} className="block px-3 py-3 rounded-md text-base font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-50">FAQ</Link>
-            <Link href="/checkout" onClick={toggleMenu} className="block px-3 py-3 rounded-md text-base font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-50">Checkout</Link>
-            <Link href="/login" onClick={toggleMenu} className="mt-4 block text-center bg-slate-900 text-white px-5 py-3 rounded-lg font-bold text-base hover:bg-slate-800 transition">
+                        <Link href="/login" onClick={toggleMenu} className="mt-4 block text-center bg-slate-900 text-white px-5 py-3 rounded-lg font-bold text-base hover:bg-slate-800 transition">
               Patient Portal
             </Link>
           </div>

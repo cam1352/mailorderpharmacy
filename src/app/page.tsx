@@ -42,11 +42,11 @@ export default async function Home() {
         </div>
 
         <div className="bg-white p-6 rounded-lg shadow-md border flex flex-col items-center text-center hover:shadow-xl transition-shadow">
-          <CreditCard className="h-12 w-12 text-indigo-500 mb-4" />
-          <h2 className="text-2xl font-bold mb-2">Easy Checkout</h2>
-          <p className="text-gray-600 mb-4">Pay securely online with your credit card.</p>
-          <Link href="/checkout" className="mt-auto bg-indigo-100 text-indigo-700 font-semibold py-2 px-4 rounded hover:bg-indigo-200 w-full">
-            Go to Checkout
+          <Pill className="h-12 w-12 text-indigo-500 mb-4" />
+          <h2 className="text-2xl font-bold mb-2">Direct Connection</h2>
+          <p className="text-gray-600 mb-4">Your request is securely routed to a licensed local pharmacist.</p>
+          <Link href="/prescriptions" className="mt-auto bg-indigo-100 text-indigo-700 font-semibold py-2 px-4 rounded hover:bg-indigo-200 w-full">
+            Connect with Pharmacist
           </Link>
         </div>
       </div>
@@ -57,7 +57,7 @@ export default async function Home() {
             <h2 className="text-4xl font-extrabold mb-4">How to Navigate Our Platform</h2>
             <div className="flex justify-center mb-6"><Link href="/prescriptions" className="bg-white text-indigo-900 px-8 py-3 rounded-full font-bold shadow-lg hover:bg-slate-100 transition-colors">See a Pharmacist</Link></div>
             <p className="text-lg text-indigo-200 max-w-2xl mx-auto">
-              Watch this quick interactive tutorial to learn how to search for medications, upload your prescriptions, and checkout in under 2 minutes.
+              Watch this quick interactive tutorial to learn how to search for medications, upload your prescriptions, and connect with a pharmacist in under 2 minutes.
             </p>
           </div>
           <div className="bg-black rounded-2xl shadow-2xl overflow-hidden border-4 border-indigo-500/30 relative aspect-video flex items-center justify-center group">

@@ -56,7 +56,7 @@ export default function DemoPage() {
         <div className="flex justify-between mt-3 text-sm font-semibold text-gray-500 px-2">
           <span>Find Medication</span>
           <span>Upload Script</span>
-          <span>Checkout</span>
+          <span>Connect</span>
         </div>
       </div>
 
@@ -129,11 +129,11 @@ export default function DemoPage() {
         </div>
       )}
 
-      {/* Step 3: Checkout */}
+      {/* Step 3: Connect */}
       {step === 3 && (
         <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-10 text-center animate-in fade-in slide-in-from-right-8 duration-300">
           <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-6" />
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Step 3: Seamless Checkout & Delivery</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">Step 3: Seamless Pharmacist Connection</h2>
           <p className="text-gray-600 mb-8 max-w-xl mx-auto">
             The script is approved! The patient just enters their payment and delivery details, and the local partnered pharmacy dispatches the order.
           </p>
