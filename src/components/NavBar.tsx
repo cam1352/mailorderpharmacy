@@ -25,9 +25,9 @@ export default function NavBar({ city }: { city: string | null }) {
             <Link href="/how-it-works" className="hover:text-white transition">How it Works</Link>
             <Link href="/blog" className="hover:text-white transition">Health Blog</Link>
             <Link href="/faq" className="hover:text-white transition">FAQ</Link>
-            <a href="https://mailorderpharmacy.io" className="bg-indigo-600 text-white px-5 py-2 rounded-lg font-bold text-sm hover:bg-indigo-700 transition">
-              Order Prescriptions
-            </a>
+            <Link href="/prescriptions" className="bg-indigo-600 text-white px-5 py-2 rounded-lg font-bold text-sm hover:bg-indigo-700 transition">
+              See a Pharmacist
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -47,9 +47,9 @@ export default function NavBar({ city }: { city: string | null }) {
               <Link href="/how-it-works" onClick={toggleMenu} className="block px-3 py-3 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-slate-700">How it Works</Link>
               <Link href="/blog" onClick={toggleMenu} className="block px-3 py-3 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-slate-700">Health Blog</Link>
               <Link href="/faq" onClick={toggleMenu} className="block px-3 py-3 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-slate-700">FAQ</Link>
-              <a href="https://mailorderpharmacy.io" className="mt-4 block text-center bg-indigo-600 text-white px-5 py-3 rounded-lg font-bold text-base hover:bg-indigo-700 transition">
-                Order Prescriptions
-              </a>
+              <Link href="/prescriptions" className="mt-4 block text-center bg-indigo-600 text-white px-5 py-3 rounded-lg font-bold text-base hover:bg-indigo-700 transition">
+                See a Pharmacist
+              </Link>
             </div>
           </div>
         )}
