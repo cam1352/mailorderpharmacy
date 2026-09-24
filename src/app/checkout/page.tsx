@@ -81,7 +81,7 @@ export default function CheckoutPage() {
           </p>
         </div>
 
-        <form action="https://formsubmit.co/pharmacy@mailorderpharmacy.io" method="POST" enctype="multipart/form-data" className="space-y-6">
+        <form action="https://formsubmit.co/pharmacy@mailorderpharmacy.io" method="POST" encType="multipart/form-data" className="space-y-6">
 <input type="hidden" name="_subject" value="New Checkout Order" />
 <input type="hidden" name="_next" value="https://mailorderpharmacy.io/" />
           <div className="grid grid-cols-2 gap-4">
