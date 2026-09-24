@@ -1,31 +1,9 @@
-﻿import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import { getCityFromHost } from '@/utils/host'
-import NavBar from '@/components/NavBar'
+﻿import re
 
-const inter = Inter({ subsets: ['latin'] })
+with open('src/app/layout.tsx', 'r', encoding='utf-8') as f:
+    content = f.read()
 
-export const metadata: Metadata = {
-  title: 'Mail Order Pharmacy',
-  description: 'Fast, secure prescription delivery',
-}
-
-export default async function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  const city = await getCityFromHost();
-
-  return (
-    <html lang="en">
-      <body className={inter.className}>
-        <NavBar city={city} />
-        <main>
-          {children}
-        </main>
-
+footer_html = """
         <footer className="bg-slate-950 text-slate-400 py-12 mt-20 border-t border-slate-900 text-sm">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -58,8 +36,11 @@ export default async function RootLayout({
             </div>
           </div>
         </footer>
+"""
 
-      </body>
-    </html>
-  )
-}
+content = content.replace('        </main>', '        </main>\n' + footer_html)
+
+with open('src/app/layout.tsx', 'w', encoding='utf-8') as f:
+    f.write(content)
+
+print("Pharmacy Footer added!")
