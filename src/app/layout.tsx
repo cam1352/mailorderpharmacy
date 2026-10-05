@@ -16,10 +16,10 @@ export async function generateMetadata(): Promise<Metadata> {
   let url = 'https://mailorderpharmacy.io';
   
   if (city) {
-    title = ${city} Pharmacy — Leading Specialists & Solutions | Official;
-    description = Looking for premier solutions from  Pharmacy? Fast, secure prescription delivery in . Discover proven results.;
-    name = ${city} Pharmacy;
-    url = https://System.Management.Automation.Internal.Host.InternalHost;
+    title = `${city} Pharmacy — Leading Specialists & Solutions | Official`;
+    description = `Looking for premier solutions from ${city} Pharmacy? Fast, secure prescription delivery in ${city}. Discover proven results.`;
+    name = `${city} Pharmacy`;
+    url = `https://${host}`;
   }
   
   return {
@@ -51,8 +51,8 @@ export default async function RootLayout({
   const city = await getCityFromHost();
   const host = await getDomainFromHost();
   
-  const name = city ? ${city} Pharmacy : "Mailorderpharmacy";
-  const url = city ? https://System.Management.Automation.Internal.Host.InternalHost : "https://mailorderpharmacy.io";
+  const name = city ? `${city} Pharmacy` : "Mailorderpharmacy";
+  const url = city ? `https://${host}` : "https://mailorderpharmacy.io";
   
   const jsonLd = {
     "@context": "https://schema.org",
